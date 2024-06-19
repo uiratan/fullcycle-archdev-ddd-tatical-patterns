@@ -1,5 +1,10 @@
 # fullcycle-archdev-ddd-tatical-patterns
 
+# Agregados
+- Customer => Address (VO)
+- Order => OrderItem
+- Product
+
 # Tests
 
 ## Install
