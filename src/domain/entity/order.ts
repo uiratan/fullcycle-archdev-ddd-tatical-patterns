@@ -16,6 +16,18 @@ export default class Order {
         this.validate();
     }
 
+    get customerId(): string {
+        return this._customerId;
+    }
+
+    get items(): OrderItem[] {
+        return this._items;
+    }
+
+    get id(): string {
+        return this._id;
+    }
+
     validate() : boolean {
         if (this._id.length === 0) {
             throw new Error("Id is required");

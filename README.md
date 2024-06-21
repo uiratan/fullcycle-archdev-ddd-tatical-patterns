@@ -27,3 +27,13 @@ npx jest --init
 ```sh
 npm i -D uuid @types/uuid --save-dev
 ```
+
+## Sequelize
+```sh
+npm install sequelize reflect-metadata sequelize-typescript
+```
+
+## SQLite
+```sh
+npm install sqlite3
+```
