@@ -22,3 +22,8 @@ npm i -D @swc/jest @swc/cli @swc/core
 ```sh
 npx jest --init
 ```
+
+## UUID
+```sh
+npm i -D uuid @types/uuid --save-dev
+```
