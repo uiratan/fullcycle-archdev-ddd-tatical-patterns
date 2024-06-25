@@ -1,6 +1,4 @@
-import EventDispatcher from "../@shared/event-dispatcher";
-import SendEmailWhenProductIsCreatedEventHandler from "../product/handler/send-email-when-product-is-created.handler";
-import ProductCreatedEvent from "../product/product-created.event";
+import EventDispatcher from "../../@shared/event/event-dispatcher";
 import CustomerAddressChangedEvent from "./customer-address-changed.event";
 import CustomerCreatedEvent from "./customer-created.event";
 import EnviaConsoleLogHandler from "./handler/console-log-when-customer-address-is-changed.handler";
